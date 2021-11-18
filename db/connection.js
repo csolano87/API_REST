@@ -2,7 +2,7 @@ const  {Sequelize}  = require('sequelize');
 //const { Sequelize, Op, Model, DataTypes } = require("sequelize");
 
 
-const   db =new Sequelize('apiRest','admin','admin123',{ 
+const   db =new Sequelize('apiRest','postgres','admin123',{ 
     host:'localhost',
     dialect:'postgres',
 

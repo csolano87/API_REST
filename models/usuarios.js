@@ -3,6 +3,11 @@ const db =require ('../db/connection');
 
 
 const Usuario=db.define('Usuario',{ 
+    id:{
+        type:DataTypes.INTEGER,
+        primaryKey: true,
+
+    },
 nombre:{
     type:DataTypes.STRING
 },
@@ -21,6 +26,11 @@ rol:{
 
 } ,
 
+estado:{
+    type:DataTypes.BOOLEAN
+
+
+} ,
 },
 
 {
